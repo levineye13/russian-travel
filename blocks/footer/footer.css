@@ -1,0 +1,38 @@
+.footer {
+	width: calc(100% - 96px);
+	max-width: 1184px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+	.footer {
+		max-width: 928px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer {
+		width: calc(100% - 48px);
+		max-width: 720px;
+	}
+}
+
+@media screen and (max-width: 675px) {
+	.footer {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.footer {
+		width: calc(100% - 32px);
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.footer {
+		max-width: 288px;
+	}
+}

@@ -1,0 +1,11 @@
+@font-face {
+	src: url('./Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+	font-family: 'Inter';
+	font-weight: bold;
+}
+
+@font-face {
+	src: url('./Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+	font-family: 'Inter';
+	font-weight: normal;
+}

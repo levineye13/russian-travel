@@ -1,0 +1,7 @@
+.footer__menu {}
+
+@media screen and (max-width: 675px) {
+	.footer__menu {
+		margin-bottom: 48px;
+	}
+}

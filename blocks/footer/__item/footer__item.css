@@ -1,12 +1,8 @@
-.footer__item {}
-
 .footer__item:not(:last-child) {
 	margin-right: 18px;
 }
 
 @media screen and (max-width: 510px) {
-	.footer__item {}
-
 	.footer__item:not(:last-child) {
 		margin: 0 0 32px;
 	}

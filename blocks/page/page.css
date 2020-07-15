@@ -1,5 +1,10 @@
 .page {
-	font-family: 'Inter', sans-serif;
 	padding: 28px 0 24px 0;
 	background-color: #2a2c2f;
+	font-family: 'Inter', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
 }

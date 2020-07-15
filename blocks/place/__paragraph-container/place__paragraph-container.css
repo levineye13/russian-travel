@@ -1,5 +1,3 @@
-.place__paragraph-container {}
-
 @media screen and (max-width: 425px) {
 	.place__paragraph-container {
 		padding: 0 21px;

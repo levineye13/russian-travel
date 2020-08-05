@@ -1,0 +1,12 @@
+.popup__close-button_container {
+	position: absolute;
+	width: 41px;
+	height: 40px;
+	top: 33px;
+	right: 50px;
+}
+
+.popup__close-button_container::before,
+.popup__close-button_container::after {
+	width: 45px;
+}

@@ -1,0 +1,11 @@
+.popup__close-button_image-container {
+		width: 26px;
+		height: 24px;
+		position: relative;
+		margin-left: 13px;
+	}
+	
+	.popup__close-button_image-container::before,
+	.popup__close-button_image-container::after {
+		width: 27px;
+	}

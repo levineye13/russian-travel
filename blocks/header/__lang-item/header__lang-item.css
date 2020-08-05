@@ -1,3 +1,7 @@
 .header__lang-item:not(:last-child) {
 	margin-right: 18px;
 }
+
+.header__lang-item:first-child {
+	margin-right: 70px;
+}

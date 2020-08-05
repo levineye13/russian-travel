@@ -15,6 +15,9 @@
 			<nav class="header__lang-block">
 				<ul class="header__lang-list">
 					<li class="header__lang-item">
+						<a href="#" id="popup-link" class="header__lang-link header__lang-link_active">О проекте</a>
+					</li>
+					<li class="header__lang-item">
 						<a href="#" class="header__lang-link header__lang-link_active">Ru</a>
 					</li>
 					<li class="header__lang-item">
@@ -264,7 +267,24 @@
 				&copy; 2020. Олег Жаров
 			</p>
 		</footer>
+
+		<section class="popup">
+			<div class="popup__container">
+				<button class="popup__close-button popup__close-button_container"></button>
+				<h2 class="popup__title">О проекте</h2>
+				<p class="popup__text">Путешествия по России это студенческий проект третьего спринта программы веб-разработчик.
+					Его задача — отточить навык адаптивной вёрстки и работы с Фигмой. А этот попап — кейс для отработки практики
+					4-го спринта.</p>
+				<a href="#" class="popup__link popup__link_active">Показать иллюстрацию</a>
+				<div class="popup__image-container">
+					<img src="./images/popup-wonam.png" alt="Девушка на природе" class="popup__image">
+					<button class="popup__close-button popup__close-button_image-container"></button>
+				</div>
+			</div>
+		</section>
 	</div>
+
+	<script src="./scripts/index.js"></script>
 </body>
 
 </html>

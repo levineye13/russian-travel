@@ -9,3 +9,27 @@
 	.popup__close-button_image-container::after {
 		width: 27px;
 	}
+
+	@media screen and (max-width: 600px) {
+		.popup__close-button_image-container {
+			width: 21px;
+			height: 19px;
+		}
+
+		.popup__close-button_image-container::before,
+		.popup__close-button_image-container::after {
+			width: 22px;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.popup__close-button_image-container {
+			width: 19px;
+			height: 17px;
+		}
+
+		.popup__close-button_image-container::before,
+		.popup__close-button_image-container::after {
+			width: 20px;
+		}
+	}

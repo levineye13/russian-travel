@@ -1,10 +1,12 @@
 .header {
 	width: calc(100% - 96px);
 	max-width: 1184px;
+	max-height: 52px;
 	margin: 0 auto;
 	background-color: #2a2c2f;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
 }
 
 @media screen and (max-width: 1024px) {

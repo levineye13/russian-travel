@@ -1,0 +1,24 @@
+.header__button-menu {
+	display: none;
+	width: 26px;
+	height: 26px;
+	align-self: flex-end;
+	margin-bottom: 6px;
+	background: url('./../../../images/header__menu.png') center/contain no-repeat;
+	padding: 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	transition: all .3s ease 0s;
+}
+
+.header__button-menu:hover {
+	opacity: .7;
+}
+
+@media screen and (max-width: 480px) {
+	.header__button-menu {
+		display: block;
+	}
+}

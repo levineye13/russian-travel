@@ -10,3 +10,15 @@
 .header__lang-link:hover {
 	opacity: .7;
 }
+
+@media screen and (max-width: 480px) {
+	.header__lang-link {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.header__lang-link {
+		font-size: 18px;
+	}
+}

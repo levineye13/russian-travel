@@ -1,5 +1,6 @@
 .popup__image-container {
 	max-width: 690px;
+	width: 100%;
 	display: none;
 	padding: 12px 0 18px;
 }

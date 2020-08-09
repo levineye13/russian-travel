@@ -1,3 +1,16 @@
 .header__button-menu_opened {
-	background-image: url('./../../../../images/header__close-menu.png');
+	display: block;
+}
+
+.header__button-menu_opened::before,
+.header__button-menu_opened::after {
+	margin-top: 0;
+}
+
+.header__button-menu_opened::before {
+	transform: rotate(45deg);
+}
+
+.header__button-menu_opened::after {
+	transform: rotate(-45deg);
 }
